@@ -1,8 +1,8 @@
 # sql-co-ban
 Tổng hợp một số câu lệnh SQL cơ bản
--- CHỐNG TRÙNG LẶP
+#CHỐNG TRÙNG LẶP
 
-SELECT DISTINCT MASP FROM HOADONCHITIET
+{SELECT DISTINCT MASP FROM HOADONCHITIET}
 
 -- Lấy top
 SELECT TOP 1 WITH TIES ....
