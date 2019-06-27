@@ -1,11 +1,18 @@
-# sql-co-ban
+# SQL_Co_Ban
 Tổng hợp một số câu lệnh SQL cơ bản.
-
-# CHỐNG TRÙNG LẶP
+## Câu lệnh kết hợp SELECT
+### Chống trùng lặp
 `SELECT DISTINCT MASP FROM HOADONCHITIET`
 
-# Lấy Top
+### Lấy Top
 `SELECT TOP 1 WITH TIES ....`
+
+### Kiểm tra biểu thức đó có là null, nếu null gán cho 1 giá trị mặc định
+`SELECT ISNULL(SoLuong, 0) ...`
+
+Ngoài ra ta có:
+
+
 
 # LẤY THÔNG TIN TRONG KHOẢNG
 `SELECT * FROM NHANVIEN WHERE LUONG >=100 AND LUONG <= 300`
